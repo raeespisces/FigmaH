@@ -34,7 +34,7 @@ const page = () => {
 
             <span className="text-amber-500">tuck</span>
           </div>
-          <nav className="max-w-[508px] h-6 flex flex-wrap absolute top-2 left-[451px] gap-8 self-stretch text-base text-white max-md:max-w-full" aria-label="Main navigation">
+          <nav className="max-w-[508px] h-6 flex flex-wrap absolute top-2 left-[451px] gap-8 self-stretch text-base text-white max-md:max-w-full">
             <Link href="/" className="grow font-bold text-amber-500" aria-current="page">Home</Link>
             <Link href="/menu">Menu</Link>
             <Link href="/blog">Blog</Link>
@@ -43,7 +43,7 @@ const page = () => {
             {/* <Link href="/shop">Shop</Link> */}
             <Link href="/contact">Contact</Link>
           </nav>
-          <div className="flex gap-4 self-stretch my-auto" aria-label="Social media links">
+          <div className="flex gap-4 self-stretch my-auto">
             <Search className=" absolute left-[1216px] top-2 shrink-0 w-6 h-6 aspect-square text-[#ffffff]" />
             <UserRound className=" absolute left-[1256px] top-2 shrink-0 w-6 h-6 aspect-square text-[#ffffff]" />
             <PiHandbag className=" absolute left-[1296px] top-2 shrink-0 w-6 h-6 aspect-square text-[#ffffff]" />
@@ -99,12 +99,12 @@ const page = () => {
 
             >
               <div className="text-zinc-800">Alder Grilled Chinook Salmon</div>
-              <div className="text-amber-500" aria-label="Price">32$</div>
+              <div className="text-amber-500">32$</div>
             </div>
             <div className="mt-2 text-neutral-600">
               Toasted French bread topped with romano, cheddar
             </div>
-            <div className="mt-2 text-zinc-500" aria-label="Calories">560 CAL</div>
+            <div className="mt-2 text-zinc-500">560 CAL</div>
             <div
               className="shrink-0 self-stretch mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full"
 
@@ -114,12 +114,12 @@ const page = () => {
 
             >
               <div >Berries and creme tart</div>
-              <div aria-label="Price">43$</div>
+              <div>43$</div>
             </div>
             <div className="mt-2 text-neutral-600">
               Gorgonzola, ricotta, mozzarella, taleggio
             </div>
-            <div className="mt-2 text-zinc-500" aria-label="Calories">700 CAL</div>
+            <div className="mt-2 text-zinc-500">700 CAL</div>
             <div
               className="shrink-0 self-stretch mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full"
 
@@ -129,12 +129,12 @@ const page = () => {
 
             >
               <div className="text-zinc-800">Tormentoso Bush Pizza Pintoage</div>
-              <div className="text-amber-500" aria-label="Price">14$</div>
+              <div className="text-amber-500" >14$</div>
             </div>
             <div className="mt-2 text-neutral-600">
               Ground cumin, avocados, peeled and cubed
             </div>
-            <div className="mt-2 text-zinc-500" aria-label="Calories">1000 CAL</div>
+            <div className="mt-2 text-zinc-500">1000 CAL</div>
             <div
               className="shrink-0 self-stretch mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full"
 
@@ -143,12 +143,12 @@ const page = () => {
 
             >
               <div className="text-zinc-800">Spicy Vegan Potato Curry</div>
-              <div className="text-amber-500" aria-label="Price">35$</div>
+              <div className="text-amber-500">35$</div>
             </div>
             <div className="mt-2 text-neutral-600">
               Spreadable cream cheese, crumbled blue cheese
             </div>
-            <div className="mt-2 text-zinc-500" aria-label="Calories">560 CAL</div>
+            <div className="mt-2 text-zinc-500">560 CAL</div>
             <div
               className="shrink-0 self-stretch mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full"
 
@@ -167,32 +167,32 @@ const page = () => {
             <BsCupHot className="object-contain w-6 aspect-square text-[#ff9f0d]" />
             <h2 className="mt-2 text-5xl font-bold leading-none text-zinc-800 max-md:text-4xl">Main Course</h2>
             <div className="flex flex-wrap gap-5 justify-between self-stretch mt-6 text-2xl font-bold leading-none max-md:max-w-full">
-              <div className="text-zinc-800" aria-lebel="3"> Optic Big Breakfast Combo Menu</div>
-              <div className="text-amber-500" aria-label="Price: 32 dollars">32$</div>
+              <div className="text-zinc-800"> Optic Big Breakfast Combo Menu</div>
+              <div className="text-amber-500" >32$</div>
             </div>
             <div className="mt-2 text-neutral-600">Toasted French bread topped with romano, cheddar</div>
-            <div className="mt-2 text-zinc-500" aria-label="560 calories">560 CAL</div>
+            <div className="mt-2 text-zinc-500" >560 CAL</div>
             <div className="shrink-0 self-stretch mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full" ></div>
             <div className="flex flex-wrap gap-5 justify-between self-stretch mt-6 text-2xl font-bold leading-none max-md:max-w-full">
-              <div className="text-zinc-800" aria-lebel="3">Cashew Chicken With Stir-Fry</div>
-              <div className="text-amber-500" aria-label="Price: 43 dollars">43$</div>
+              <div className="text-zinc-800" >Cashew Chicken With Stir-Fry</div>
+              <div className="text-amber-500">43$</div>
             </div>
             <div className="mt-2 text-neutral-600">Gorgonzola, ricotta, mozzarella, taleggio</div>
-            <div className="mt-2 text-zinc-500" aria-label="700 calories">700 CAL</div>
+            <div className="mt-2 text-zinc-500" >700 CAL</div>
             <div className="shrink-0 self-stretch mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full"></div>
             <div className="flex flex-wrap gap-5 justify-between self-stretch mt-6 text-2xl font-bold leading-none max-md:max-w-full">
-              <div className="text-zinc-800" aria-lebel="3">Vegetables & Green Salad</div>
-              <div className="text-amber-500" aria-label="Price: 14 dollars">14$</div>
+              <div className="text-zinc-800">Vegetables & Green Salad</div>
+              <div className="text-amber-500">14$</div>
             </div>
             <div className="mt-2 text-neutral-600">Ground cumin, avocados, peeled and cubed</div>
-            <div className="mt-2 text-zinc-500" aria-label="1000 calories">1000 CAL</div>
+            <div className="mt-2 text-zinc-500" >1000 CAL</div>
             <div className="shrink-0 self-stretch mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full"></div>
             <div className="flex flex-wrap gap-5 justify-between self-stretch mt-6 text-2xl font-bold leading-none max-md:max-w-full">
-              <div className="text-zinc-800" aria-label="3">Spicy Vegan Potato Curry</div>
-              <div className="text-amber-500" aria-label="Price: 35 dollars">35$</div>
+              <div className="text-zinc-800">Spicy Vegan Potato Curry</div>
+              <div className="text-amber-500" >35$</div>
             </div>
             <div className="mt-2 text-neutral-600">Spreadable cream cheese, crumbled blue cheese</div>
-            <div className="mt-2 text-zinc-500" aria-label="560 calories">560 CAL</div>
+            <div className="mt-2 text-zinc-500">560 CAL</div>
             <div className="shrink-0 self-stretch mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full"></div>
           </div>
         </div>
@@ -214,7 +214,7 @@ const page = () => {
           />
           <div
             className="flex relative flex-col justify-center items-center px-16 py-28 w-full bg-stone-950 bg-opacity-80 max-md:px-5 max-md:py-24 max-md:max-w-full"
-            aria-label="Restaurant Statistics"
+           
           >
             <div className="mb-0 w-full max-w-[1311px] max-md:mb-2.5 max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col">
@@ -227,7 +227,7 @@ const page = () => {
                       alt="Professional Chefs Icon"
                       className="object-contain max-w-full aspect-[1.01] w-[120px]"
                     />
-                    <div className="mt-10 text-4xl leading-tight" aria-label="420 Professional Chefs">420</div>
+                    <div className="mt-10 text-4xl leading-tight">420</div>
                     <div className="self-stretch mt-9 text-2xl leading-none">
                       Professional Chefs
                     </div>
@@ -242,7 +242,7 @@ const page = () => {
                       alt="Food Items Icon"
                       className="object-contain max-w-full aspect-[1.01] w-[120px]"
                     />
-                    <div className="mt-10 text-4xl leading-tight" aria-label="320 Items of Food">320</div>
+                    <div className="mt-10 text-4xl leading-tight">320</div>
                     <div className="self-stretch mt-9 text-2xl leading-none">
                       Items Of Food
                     </div>
@@ -257,7 +257,7 @@ const page = () => {
                       alt="Years of Experience Icon"
                       className="object-contain max-w-full aspect-[1.01] w-[120px]"
                     />
-                    <div className="mt-10 text-4xl leading-tight" aria-label="Over 30 Years of Experience">30+</div>
+                    <div className="mt-10 text-4xl leading-tight">30+</div>
                     <div className="self-stretch mt-9 text-2xl leading-none">
                       Years Of Experienced
                     </div>
@@ -272,7 +272,7 @@ const page = () => {
                       alt="Years of Experience Icon"
                       className="object-contain max-w-full aspect-[1.01] w-[120px]"
                     />
-                    <div className="mt-10 text-4xl leading-tight" aria-label="220 Happy Customers">220+</div>
+                    <div className="mt-10 text-4xl leading-tight">220+</div>
                     <div className="self-stretch mt-9 text-2xl leading-none">
                       Happy Customers
                     </div>
@@ -318,7 +318,7 @@ const page = () => {
               </div>
               <div
                 className="self-start text-2xl font-bold leading-none text-amber-500"
-                aria-label="Price"
+          
               >
                 32$
               </div>
@@ -332,7 +332,7 @@ const page = () => {
 
             >
               <h3 className="text-zinc-800">Creamy mascarpone cake</h3>
-              <div className="text-amber-500" aria-label="Price">43$</div>
+              <div className="text-amber-500">43$</div>
             </div>
             <p className="self-start mt-2 text-base text-neutral-600">
               Gorgonzola, ricotta, mozzarella, taleggio
@@ -346,7 +346,7 @@ const page = () => {
 
             >
               <h3 className="text-zinc-800">Pastry, blueberries, lemon juice</h3>
-              <div className="text-amber-500" aria-label="Price">14$</div>
+              <div className="text-amber-500">14$</div>
             </div>
             <p className="self-start mt-2 text-base text-neutral-600">
               Ground cumin, avocados, peeled and cubed
@@ -372,7 +372,7 @@ const page = () => {
               </div>
               <div
                 className="self-start text-2xl font-bold leading-none text-amber-500"
-                aria-label="Price"
+                
               >
                 35$
               </div>
@@ -406,11 +406,12 @@ const page = () => {
             <p className="self-stretch mt-2 text-neutral-600">
               Toasted French bread topped with romano, cheddar
             </p>
-            <span className="mt-2 text-zinc-500" aria-label="Calorie information">560 CAL</span>
+            <span className="mt-2 text-zinc-500">560 CAL</span>
           </div>
           <div
             className="self-start text-2xl font-bold leading-none text-amber-500"
-            aria-label="Price"
+            
+          
           >
             32$
           </div>
@@ -424,12 +425,12 @@ const page = () => {
           
         >
           <h3 className="text-zinc-800" >Aperol Spritz Capacianno</h3>
-          <div className="text-amber-500" aria-label="Price">43$</div>
+          <div className="text-amber-500">43$</div>
         </div>
         <p className="self-start mt-2 text-base text-neutral-600">
           Gorgonzola, ricotta, mozzarella, taleggio
         </p>
-        <span className="self-start mt-2 text-base text-zinc-500" aria-label="Calorie information">700 CAL</span>
+        <span className="self-start mt-2 text-base text-zinc-500">700 CAL</span>
         <div
           className="shrink-0 mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full"
           
@@ -439,12 +440,12 @@ const page = () => {
           
         >
           <h3 className="text-zinc-800" >Caffe Latte Campuri</h3>
-          <div className="text-amber-500" aria-label="Price">14$</div>
+          <div className="text-amber-500">14$</div>
         </div>
         <p className="self-start mt-2 text-base text-neutral-600">
           Ground cumin, avocados, peeled and cubed
         </p>
-        <span className="self-start mt-2 text-base text-zinc-500" aria-label="Calorie information">1000 CAL</span>
+        <span className="self-start mt-2 text-base text-zinc-500">1000 CAL</span>
         <div
           className="shrink-0 mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full"
           
@@ -454,12 +455,12 @@ const page = () => {
           
         >
           <h3 className="text-zinc-800">Tormentoso BushTea Pintoage</h3>
-          <div className="text-amber-500" aria-label="Price">35$</div>
+          <div className="text-amber-500">35$</div>
         </div>
         <p className="self-start mt-2 text-base text-neutral-600">
           Spreadable cream cheese, crumbled blue cheese
         </p>
-        <span className="self-start mt-2 text-base text-zinc-500" aria-label="Calorie information">560 CAL</span>
+        <span className="self-start mt-2 text-base text-zinc-500">560 CAL</span>
         <div
           className="shrink-0 mt-4 h-px border border-dashed bg-neutral-200 border-neutral-200 max-md:max-w-full"
           
@@ -489,7 +490,7 @@ const page = () => {
   <div
     className="flex flex-wrap gap-5 justify-between self-stretch mt-16 w-full max-md:mt-10 max-md:max-w-full"
     
-    aria-label="Partner logos"
+    
   >
     <Image
       src={restaurant}

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { FaArrowRight, FaMinus, FaPlus } from 'react-icons/fa'
+import {  FaMinus, FaPlus } from 'react-icons/fa'
 import { ChevronLeft, ChevronRight, Link, Search, UserRound } from 'lucide-react'
 import { PiHandbag } from 'react-icons/pi'
 import bgPic from '/public/images/menutop.png'
